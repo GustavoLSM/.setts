@@ -14,8 +14,9 @@ yay -S starship stow fastfetch \
 yay -S sxwm-git thunar betterlockscreen \
     gvfs maim xclip
 
-git clone https://git.suckless.org/st
-git clone https://github.com/uint23/sxbar
+mkdir -p ~/.local/clones/
+git clone https://git.suckless.org/st ~/.local/clones/st
+git clone https://github.com/uint23/sxbar ~/.local/clones/sxbar
 
 # Appearance
 yay -S nwg-look qt5ct nitrogen \
