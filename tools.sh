@@ -5,7 +5,7 @@
 # on my work and home computers
 
 # IT toolset
-yay -S zsh stow fastfetch \
+yay -S starship stow fastfetch \
     cifs-utils samba openvpn \
     freerdp remmina teamviewer \
     winbox keepassxc libreoffice-fresh
