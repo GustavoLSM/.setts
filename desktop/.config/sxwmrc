@@ -33,6 +33,7 @@ bind : mod + shift + f : "thunar"
 # System Management:
 bind : mod + shift + l : "betterlockscreen -l dim"
 bind : mod + shift + x : "poweroff"
+call : mod + shift + e : quit
 
 # Screenshot:
 bind : mod + shift + s : "sh -c 'mkdir -p ~/Pictures/screenshots && maim -s -u ~/Pictures/screenshots/$(date +%F_%H-%M).png | xclip -selection clipboard -t image/png -i'"
