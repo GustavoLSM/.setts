@@ -33,6 +33,7 @@ bind : mod + shift + f : "thunar"
 # System Management:
 bind : mod + shift + l : "betterlockscreen -l dim"
 bind : mod + shift + x : "poweroff"
+bind : mod + shift + r : "reboot"
 call : mod + shift + e : quit
 
 # Screenshot:
